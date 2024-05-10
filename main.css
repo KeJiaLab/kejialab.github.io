@@ -126,7 +126,7 @@ img.peopleimg{
 img.leader{
   width: 100%;
   height: 100%;
-  margin: 0% 33%
+  margin-left: 10em;
   object-fit: contain; 
   float:center; 
   overflow: hidden;
