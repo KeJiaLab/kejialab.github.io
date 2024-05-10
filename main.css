@@ -132,6 +132,15 @@ img.leader{
   overflow: hidden;
 }
 
+img.jiake{
+  width: 50%;
+  height: 50%;
+  margin-left: 30em;
+  object-fit: contain; 
+  float:left; 
+  overflow: hidden;
+}
+
 p.title{
   font-size: 25px; 
   text-indent: 1em; 
