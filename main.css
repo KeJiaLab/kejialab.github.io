@@ -141,6 +141,27 @@ img.peopleimg{
   overflow: hidden;
 }
 
+p.title{
+  font-size: 40px; 
+  text-indent: 1em; 
+  line-height: 5; 
+  text-align: center;
+}
+
+div.title{
+  font-size: 40px; 
+  text-indent: 1em; 
+  line-height: 5; 
+  text-align: center;
+}
+
+div.content{
+  font-size: 25px; 
+  text-indent: 0.8em; 
+  line-height: 1; 
+  text-align: left;
+}
+
 img.leader{
   width: 50%;
   height: 50%;
