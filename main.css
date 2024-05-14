@@ -105,23 +105,23 @@ p.content{
 /*--------------- News and Research Page--------------- */
 /* content part */
 div.h1{
-    font-size: large;
+    font-size: 40px;
     text-align: left;
 }
 
 div.h2{
-    font-size: medium;
+    font-size: 25px;
     text-align: left;
 }
 
 div.h3{
-    font-size: small;
+    font-size: 18px;
     text-align: left;
 }
 
 /*--------------- People Page--------------- */
 div.h2{
-    font-size: medium;
+    font-size: 25px;
     text-align: left;
 }
 
