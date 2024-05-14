@@ -82,7 +82,7 @@ img.jiake{
   height: 50%;
   margin-left: 30em;
   object-fit: contain; 
-  float:left; 
+  float:right; 
   overflow: hidden;
 }
 
