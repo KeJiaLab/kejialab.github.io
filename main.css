@@ -80,9 +80,9 @@ div.h3{
 img.jiake{
   width: 50%;
   height: 50%;
-  margin-left: 15em;
+  margin-left: 0em;
   object-fit: contain; 
-  float:center; 
+  float:none; 
   overflow: hidden;
 }
 
