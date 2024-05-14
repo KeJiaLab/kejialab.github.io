@@ -80,16 +80,16 @@ div.h3{
 img.jiake{
   width: 50%;
   height: 50%;
-  margin-left: 30em;
+  margin-left: 15em;
   object-fit: contain; 
-  float:right; 
+  float:center; 
   overflow: hidden;
 }
 
 p.title{
-  font-size: 40px; 
+  font-size: 20px; 
   text-indent: 1em; 
-  line-height: 5; 
+  line-height: 3; 
   text-align: center;
 }
 
@@ -144,14 +144,14 @@ img.peopleimg{
 p.title{
   font-size: 40px; 
   text-indent: 1em; 
-  line-height: 5; 
+  line-height: 3; 
   text-align: center;
 }
 
 div.title{
   font-size: 40px; 
   text-indent: 1em; 
-  line-height: 5; 
+  line-height: 3; 
   text-align: center;
 }
 
