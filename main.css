@@ -54,10 +54,10 @@ nav > ul > li > a {
     text-decoration: none;
 }
 nav > ul > li:hover > a {
-    color: #63001B;
+    color: #FFBF00;
 }
 .active {
-    color: #63001B;
+    color: #FFBF00;
 }
 
 img.cloudimg{
