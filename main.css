@@ -80,21 +80,21 @@ div.h3{
 img.jiake{
   width: 50%;
   height: 50%;
-  margin-left: 0em;
+  margin-left: 30em;
   object-fit: contain; 
   float:none; 
   overflow: hidden;
 }
 
 p.title{
-  font-size: 20px; 
+  font-size: 25px; 
   text-indent: 1em; 
   line-height: 3; 
   text-align: center;
 }
 
 p.content{
-  font-size: 25px; 
+  font-size: 18px; 
   text-indent: 0.8em; 
   line-height: 1; 
   text-align: left;
@@ -196,7 +196,7 @@ p.contactpage{
 img.gallery{
   width: 33%;
   height: 33%;
-  object-fit: none; 
-  float:center; 
+  object-fit: contain; 
+  float:none; 
   overflow: hidden;
 }
