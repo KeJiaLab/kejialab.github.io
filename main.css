@@ -128,10 +128,10 @@ img.peopleimg{
 }
 
 p.alumni{
-  font-size: 40px; 
+  font-size: 60px; 
   text-indent: 1em; 
   line-height: 5; 
-  align: center;
+  text-align: center;
 }
 
 div.peopletitle{
