@@ -80,7 +80,7 @@ div.h3{
 img.jiake{
   width: 50%;
   height: 50%;
-  margin-left: 30em;
+  margin-left: 0em;
   object-fit: none; 
   float:none; 
   overflow: hidden;
@@ -96,8 +96,8 @@ p.title{
 p.content{
   font-size: 18px; 
   text-indent: 0.8em; 
-  line-height: 1; 
-  text-align: left;
+  line-height: 1.5; 
+  text-align: center;
 }
 
 
