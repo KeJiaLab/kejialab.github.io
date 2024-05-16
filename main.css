@@ -88,7 +88,7 @@ img.jiake{
 p.title{
   font-size: 25px; 
   text-indent: 1em; 
-  line-height: 3; 
+  line-height: 1.5; 
   text-align: center;
 }
 
@@ -201,8 +201,8 @@ img.contact{
 
 /*--------------- Gallery Page--------------- */
 img.gallery{
-  width: 33%;
-  height: 33%;
+  width: 100%;
+  height: 100%;
   object-fit: contain; 
   float:none; 
   overflow: hidden;
