@@ -102,7 +102,21 @@ p.content{
 
 
 /*--------------- News and Research Page--------------- */
-/* content part is the same as above temporally*/
+img.research{
+  width: 40%;
+  height: 10%;
+  object-fit: contain; 
+  float:left; 
+  overflow: hidden;
+}
+
+div.research{
+  font-size: 18px; 
+  text-indent: 2em; 
+  line-height: 1.5; 
+  text-align: left;
+}
+
 
 /*--------------- People Page--------------- */
 div.h2{
