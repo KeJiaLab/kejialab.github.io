@@ -170,6 +170,21 @@ img.leader{
   overflow: hidden;
 }
 
+img.person{
+  width: 20%;
+  height: 20%;
+  object-fit: contain; 
+  float:none; 
+  overflow: hidden;
+}
+
+div.person{
+  font-size: 18px; 
+  text-indent: 0em; 
+  line-height: 1.5; 
+  text-align: center;
+}
+
 
 /*--------------- Publications Page--------------- */
 /* Publication list section */
