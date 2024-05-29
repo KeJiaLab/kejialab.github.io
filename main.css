@@ -103,14 +103,17 @@ p.content{
 
 /*--------------- News and Research Page--------------- */
 img.research{
-  width: 40%;
-  height: 10%;
+  width:30em;
   object-fit: contain; 
   float:left; 
   overflow: hidden;
 }
 
 div.research{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 15em;
+  margin-right: 15em;
   font-size: 18px; 
   text-indent: 2em; 
   line-height: 1.5; 
