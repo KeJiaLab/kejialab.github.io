@@ -174,18 +174,21 @@ img.leader{
 }
 
 img.person{
-  width: 20%;
-  height: 20%;
+  width: 250px;
   object-fit: contain; 
-  float:none; 
+  float:left; 
   overflow: hidden;
 }
 
 div.person{
+  margin-top: 5em;
+  margin-bottom: 10em;
+  margin-left: 20em;
+  margin-right: 20em;
   font-size: 18px; 
-  text-indent: 0em; 
+  text-indent: 1.5em; 
   line-height: 1.5; 
-  text-align: center;
+  text-align: left;
 }
 
 
