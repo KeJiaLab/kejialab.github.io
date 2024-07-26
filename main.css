@@ -120,6 +120,15 @@ div.research{
   text-align: justify;
 }
 
+p.rtitle{
+  text-align: center; 
+  font-size: 20px; 
+  color: #1a5175;
+}
+
+p span{
+  font-size: 32px;
+}
 
 /*--------------- People Page--------------- */
 div.h2{
