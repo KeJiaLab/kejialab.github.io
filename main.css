@@ -103,7 +103,7 @@ p.content{
 
 /*--------------- News and Research Page--------------- */
 img.research{
-  width:30em;
+  width:35em;
   object-fit: cover; 
   float:right; 
   overflow: hidden;
