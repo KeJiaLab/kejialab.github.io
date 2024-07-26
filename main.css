@@ -104,8 +104,8 @@ p.content{
 /*--------------- News and Research Page--------------- */
 img.research{
   width:40em;
-  object-fit: contain; 
-  float:left; 
+  object-fit: cover; 
+  float:right; 
   overflow: hidden;
 }
 
@@ -114,21 +114,23 @@ div.research{
   margin-bottom: 2em;
   margin-left: 15em;
   margin-right: 15em;
-  font-size: 18px; 
+  font-size: 16px; 
   text-indent: 2em; 
   line-height: 1.5; 
-  text-align: justify;
+  text-align: center;
 }
 
 p.rtitle{
-  text-align: center; 
+  text-align: left; 
+  text-indent: 0%;
   font-size: 20px; 
   color: #1a5175;
 }
 
-p span{
-  font-size: 32px;
+p.rcontent{
+  text-align: justify;
 }
+
 
 /*--------------- People Page--------------- */
 div.h2{
