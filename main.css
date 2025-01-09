@@ -241,9 +241,9 @@ img.contact{
   width: 100%;
   height: 100%;
   object-fit: contain; 
-  margin-left: 60em
+  margin-left: 0em;
   float:none; 
-  overflow: hidden;
+  
 }
 
 /*--------------- Gallery Page--------------- */
