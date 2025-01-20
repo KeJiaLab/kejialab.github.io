@@ -161,74 +161,142 @@ p.rcontent{
 
 
 /*--------------- People Page--------------- */
-div.h2{
-    font-size: 25px;
-    text-align: left;
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-ul.people{
+/* h2 element */
+div.h2 {
+  font-size: 25px;
+  text-align: left;
+}
+
+/* List styles for 'people' */
+ul.people {
   padding: 0;
   font-size: medium;
   list-style-type: none;
 }
-li.people{
-  padding-left: 180px
-}
-img.peopleimg{
-  width: 300px;
-  height: 300px;
-  object-fit: contain; 
-  float:none; 
-  overflow: hidden;
+
+li.people {
+  padding-left: 20px; /* Adjust padding for mobile view */
 }
 
-p.alumni{
-  font-size: 30px; 
-  text-indent: 1em; 
-  line-height: 1; 
+/* Person image */
+img.peopleimg {
+  width: 100%; /* Make image responsive */
+  max-width: 300px; /* Prevent images from becoming too large */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Alumni section */
+p.alumni {
+  font-size: 30px;
+  text-indent: 1em;
+  line-height: 1.5;
   text-align: center;
 }
 
-div.peopletitle{
-  font-size: 40px; 
-  text-indent: 1em; 
-  line-height: 3; 
+/* Title for people section */
+div.peopletitle {
+  font-size: 40px;
+  text-indent: 1em;
+  line-height: 1.5;
   text-align: center;
 }
 
-div.peoplecontent{
-  font-size: 25px; 
-  text-indent: 0.8em; 
-  line-height: 1; 
+/* Content for people */
+div.peoplecontent {
+  font-size: 25px;
+  text-indent: 0.8em;
+  line-height: 1.5;
   text-align: left;
 }
 
-img.leader{
-  width: 50%;
-  height: 50%;
-  margin-left: 30em;
-  object-fit: contain; 
-  float:center; 
-  overflow: hidden;
+/* Leader image */
+img.leader {
+  width: 100%; /* Make it responsive */
+  max-width: 500px; /* Limit the max width */
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  display: block;
 }
 
-img.person{
-  width: 250px;
-  object-fit: contain; 
-  float:left; 
-  overflow: hidden;
+/* Person images for list */
+img.person {
+  width: 100%; /* Make image responsive */
+  max-width: 250px; /* Limit the max width */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
-div.person{
-  margin-top: 5em;
-  margin-bottom: 10em;
-  margin-left: 20em;
-  margin-right: 20em;
-  font-size: 18px; 
-  text-indent: 1.5em; 
-  line-height: 1.5; 
+/* Person block layout */
+div.person {
+  margin: 2em auto; /* Adjust margins */
+  padding: 2em;
+  font-size: 18px;
+  text-indent: 1.5em;
+  line-height: 1.5;
   text-align: left;
+  max-width: 800px; /* Prevents it from being too wide */
+  background-color: #f4f4f4;
+  border-radius: 8px;
 }
+
+/* Responsive Layout for Mobile Devices */
+@media (max-width: 768px) {
+  div.h2 {
+    font-size: 22px; /* Adjust for mobile */
+  }
+
+  /* Adjust font size for people list on small screens */
+  ul.people {
+    font-size: small;
+  }
+
+  li.people {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+  }
+
+  /* Adjust image sizes */
+  img.peopleimg {
+    max-width: 80%; /* Make images smaller on mobile */
+  }
+
+  p.alumni {
+    font-size: 25px; /* Adjust font size */
+  }
+
+  div.peopletitle {
+    font-size: 30px; /* Adjust title font size */
+  }
+
+  div.peoplecontent {
+    font-size: 20px; /* Adjust content font size */
+  }
+
+  /* Adjust leader image on small screens */
+  img.leader {
+    max-width: 80%;
+  }
+
+  div.person {
+    margin-top: 2em; /* Reduce margin for mobile */
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 16px; /* Adjust text size */
+  }
+}
+
 
 
 /*--------------- Publications Page--------------- */
