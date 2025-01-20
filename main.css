@@ -48,7 +48,7 @@ nav ul {
 
 /* 每个导航项的样式 */
 nav ul li {
-  font-size: 20px;
+  font-size: 24px;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
@@ -60,7 +60,7 @@ nav ul li {
 nav > ul > li > a {
   color: rgb(255, 255, 255);
   display: block;
-  line-height: 25px;
+  line-height: 60px;
   padding: 0 30px;
   text-decoration: none;
 }
