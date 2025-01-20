@@ -27,6 +27,7 @@ img.headerimg{
 
 /* Navigation bar */
 
+/* 样式调整：让导航栏的 `ul` 元素使用 flex 布局 */
 nav {
   background-color: #001610;
   display: block;
@@ -35,30 +36,57 @@ nav {
   overflow: hidden;
   text-align: center;
 }
-nav ul li {
-  display: inline-block;
-  list-style-type: none;
-  font-size: 20px;
 
+/* 使用 flex 布局使导航项水平排列 */
+nav ul {
+  display: flex; /* 使用 flex 布局 */
+  justify-content: center; /* 居中对齐 */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* 每个导航项的样式 */
+nav ul li {
+  font-size: 20px;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
+
+/* 链接样式 */
 nav > ul > li > a {
-    color: rgb(255,255,255);
-    display: block;
-    line-height: 25px;
-    padding: 0 30px;
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  line-height: 25px;
+  padding: 0 30px;
+  text-decoration: none;
 }
+
+/* 当悬停时链接颜色变化 */
 nav > ul > li:hover > a {
-    color: #FFBF00;
+  color: #FFBF00;
 }
+
+/* 为活动的导航项（如当前页面）设置颜色 */
 .active {
-    color: #FFBF00;
+  color: #FFBF00;
 }
+
+/* 适应小屏幕，确保导航栏适当调整 */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap; /* 在小屏幕上允许导航项换行 */
+    justify-content: space-around; /* 分布导航项 */
+  }
+
+  nav ul li {
+    margin: 5px 0; /* 在手机视图上增加垂直间距 */
+  }
+}
+
 
 
 /* content part */
