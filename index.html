@@ -11,6 +11,7 @@
         font-size: 18px;
         color: #333;
         margin-top: 20px;
+        overflow: hidden;
 
       }
 
@@ -18,12 +19,20 @@
         float: left;
         margin: 0 25px 15px 0;
         width: 50%;
-        max-width: 50%;
+        max-width: 400px;
         height: auto;
         border-radius: 6px;
         box-shadow: 0 3px 12px,rgba(0, 0, 0, 0.1);
       }
 
+        .lab-intro <h3>{
+          color: 2c3e50;
+          margin-top: 1.5em;
+          margin-bottom: 0.5em;
+          font-size: 1.4em;
+          clear: both;
+        }
+      
 
       @media(max-width:1024px){
         .lab-image{
@@ -43,16 +52,13 @@
         .lab-intro{
           text-align: left;
         }
-
-
-        .lab-intro <h3>{
-          color: 2c3e50;
-          margin-top: 1.5em;
-          margin-bottom: 0.5em;
-          font-size: 1.4em;
-
+        .lab-intro h3:first-of-type{
+          clear:both;
         }
       }
+
+
+
     </style>
   </head>
 
