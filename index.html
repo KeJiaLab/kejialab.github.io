@@ -6,22 +6,24 @@
     <link rel="stylesheet" href="./main.css">
     <style>
       .lab-intro{
-        text-align: justify;
-        line-height: 1.7;
-        font-size: 18px;
-        color: #333;
-        margin-top: 20px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto 0;
+        overflow: hidden;
 
       }
 
       .lab-image{
         float: left;
-        margin: 0 25px 15px 0;
-        max-width: 50%;
         width: 50%;
         height: auto;
+        margin-right: 25px;
         border-radius: 6px;
-        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 12px,rgba(0, 0, 0, 0.1);
+      }
+
+      .lab-text-content-float{
+        overflow: hidden;
       }
 
       @media(max-width:1024px){
@@ -90,6 +92,7 @@
 
         <div class="lab-intro">
           <img src="./img/introduction/intropic.jpg" alt="image1" class="lab-image">
+          <div class="lab-text-content-float">
           <h3>Our Research Mission</h3>
           <p>Our laboratory investigates the neural and cognitive mechanisms underlying human adaptive behavior, with a central focus on cognitive flexibility—the brain's capacity to dynamically select, update, and reconfigure internal representations to meet changing environmental demands. We examine this fundamental capability through the lens of two core cognitive domains: visual perceptual learning, which reflects how experience refines sensory processing, and working memory, the system supporting the active maintenance and manipulation of information. By characterizing the interplay between sensory plasticity and executive control, we aim to uncover the principles governing how the brain optimizes performance in dynamic environments.</p>
           <h3>Methodological Approach</h3>
