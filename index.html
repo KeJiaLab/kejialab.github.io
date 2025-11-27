@@ -11,21 +11,34 @@
         font-size: 18px;
         color: #333;
         margin-top: 20px;
-        overflow: hidden;
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+       
 
       }
 
+      .lab-image-container{
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+
       .lab-image{
-        float: left;
-        margin: 0 25px 15px 0;
-        width: 60%;
-        max-width: 550px;
+        display: inline-block;
+        
+        width: 80%;
+        max-width: 880px;
         height: auto;
         border-radius: 6px;
         box-shadow: 0 3px 12px,rgba(0, 0, 0, 0.1);
-        vertical-align: top;
-        position: relative;
-        top: 0.5em;
+        
+      }
+
+      .text-content{
+        width: 100%;
+        margin: 0 auto;
       }
 
       .lab-intro <h3>{
@@ -33,43 +46,39 @@
         margin-top: 1.5em;
         margin-bottom: 0.5em;
         font-size: 1.4em;
-        clear: both;
+        text-align: left;
       }
 
       .lab-intro h3:first-of-type{
         margin-top: 0;
       }
       
-      .lab-intro h3:first-of-type + p{
-        margin-top: 0;
-        padding-top: 0.2em;
-      }
+
 
       .lab-intro p{
-        vertical-align: baseline;
+        text-align: justify;
+        margin-bottom: 1.5em;
       }
 
       @media(max-width:1024px){
         .lab-image{
-          max-width: 450px;
-          width: 50%;
+          max-width: 700px;
+          width: 85%;
         }
       }
 
       @media(max-width:768px){
         .lab-image{
-          float: none;
-          display: block;
-          max-width: 80%;
-          width: 90%;
-          margin: 0 auto 25px;
-          top: 0;
+          
+          max-width: 90%;
+          width: 95%;
         }
         .lab-intro{
           text-align: left;
+          padding: 0 15px;
         }
-        .lab-intro h3:first-of-type{
-          clear:both;
+        .text-content{
+          width: 100%;
         }
       }
 
@@ -112,14 +121,18 @@
         <br>
 
         <div class="lab-intro">
+          <div class="lab-image-container">
           <img src="./img/introduction/intropic.jpg" alt="image1" class="lab-image">
-
+          </div>
+          
+          <div class="text-content">
           <h3>Our Research Mission</h3>
           <p>Our laboratory investigates the neural and cognitive mechanisms underlying human adaptive behavior, with a central focus on cognitive flexibility—the brain's capacity to dynamically select, update, and reconfigure internal representations to meet changing environmental demands. We examine this fundamental capability through the lens of two core cognitive domains: visual perceptual learning, which reflects how experience refines sensory processing, and working memory, the system supporting the active maintenance and manipulation of information. By characterizing the interplay between sensory plasticity and executive control, we aim to uncover the principles governing how the brain optimizes performance in dynamic environments.</p>
           <h3>Methodological Approach</h3>
           <p>To bridge behavioral phenomena with neural substrates, we employ a multimodal approach that integrates psychophysics and computational modeling with advanced neuroimaging techniques. We utilize EEG/MEG to track high-temporal dynamics and fMRI for high-spatial resolution mapping. A distinguishing feature of our research is the use of ultra-high-field (7T) fMRI and MR spectroscopy (MRS), enabling fine-grained mapping of cortical laminations and quantiification of neurochemical states. Furthermore, we estabilish casual links between brain activity and cognition by combining neuroimaging with non-invasive neuromodulation techniques such as TMS and tDCS.</p>
           <h3>Translational Impact</h3>
           <p>Beyond basic neuroscience, we apply these rigirous framworks to understand neuropsychiatric and neurological conditions. Our translational work seeks to identify biomarkers of cognitive dysfunction and develop targented interventions to restore or enhance cognitive function across the lifespan.</p>
+          </div>
         </div>
       </div> 
 
