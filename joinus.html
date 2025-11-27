@@ -4,6 +4,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ke Jia Lab-ZJU·MOE Frontier Science Center for Brain Science and Brain Machine Integration</title>
     <link rel="stylesheet" href="./main.css">
+
+    <style>
+      .content-container{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .contact-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+      }
+
+      .contact-info{
+        flex: 1;
+      }
+
+      .contact-map{
+        flex: 0 0 auto;
+        text-align: center;
+      }
+
+      .contact-map img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
   </head>
 
   <body>
@@ -28,7 +58,8 @@
     </div>
     <br>
 
-    <div style="width: 90%; max-width: 1200px; margin: 0 auto;">
+    <!--<div style="width: 90%; max-width: 1200px; margin: 0 auto;">-->
+    <div class="content-container"> 
       <p align='left' style="font-size: 25px; font-weight: bold;">
         Opportunities
       </p>
@@ -45,20 +76,41 @@
 
     <br>
     <!-- Contact Information Section -->
-    <div style="width: 90%; max-width: 1200px; margin: 0 auto;">
+    <!-- <div style="width: 90%; max-width: 1200px; margin: 0 auto;">-->
+    <div class="content-container">
       <p align='left' style="font-size: 25px; font-weight: bold;">
         Contact Information
       </p>
     </div>
     
     <br>
+
+    <!-- Main part (Contact Us Section) -->
+    <div class="content-container">
+      
+        <div class="contact-section">
+          <!-- Text content aligned to the left -->
+          <div class="contact-info">
+            <ul style="line-height: 2; list-style-type: none; padding: 0;">
+              <li><b>📍 Location</b>: Central South Building 708, Zhejiang University (Huajiachi Campus), Shangcheng District, Hangzhou, Zhejiang.</li><br>
+              <li><b>✉️E-mail</b>: kjia@zju.edu.cn</li><br>
+              <li><b>☎️Tel</b>: 0571-86971024</li>
+            </ul>
+          </div>
+          <!-- Image aligned to the right -->
+          <div class="contact-map">
+            <img class="contact" src="./img/location.jpg" style="width: 240px; height: auto;">
+          </div>
+        </div>
+      
+    </div>
     
     <!-- Main part (Contact Us Section) -->
-    <div style="width: 90%; max-width: 1200px; margin-left: 0; margin-right: auto;">
+    <!--<div style="width: 90%; max-width: 1200px; margin-left: 0; margin-right: auto;">
       <table style="width: 100%;" border="0">
         <tr valign="top">
           <!-- Text content aligned to the left -->
-          <td style="text-align: left; width: 60%; padding-left: 300px;">
+          <!--<td style="text-align: left; width: 60%; padding-left: 300px;">
             <ul style="line-height: 2; list-style-type: none;">
               <li><b>📍 Location</b>: Central South Building 708, Zhejiang University (Huajiachi Campus), Shangcheng District, Hangzhou, Zhejiang.</li><br>
               <li><b>✉️E-mail</b>: kjia@zju.edu.cn</li><br>
@@ -66,12 +118,12 @@
             </ul>
           </td>
           <!-- Image aligned to the right -->
-          <td style="text-align: center; width: 20%;">
+          <!--<td style="text-align: center; width: 20%;">
             <img class="contact" src="./img/location.jpg" style="width: 240px; height: auto;">
           </td>
         </tr>
       </table>
-    </div>
+    </div>-->
     
     
   </body>
