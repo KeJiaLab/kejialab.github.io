@@ -400,9 +400,6 @@ nav ul li:hover a {
 .visit-counter {
   color: white;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.15);
-  padding: 6px 14px;
-  border-radius: 30px;
   white-space: nowrap;
   font-weight: normal;
   letter-spacing: 0.5px;
