@@ -15,19 +15,21 @@
     </div>
 
       <!--Navigation bar part---->
-      <div align='center'>
-        <nav>
-          <ul>
-            <li><a href='index.html'>AboutUs</a></li>
-            <li><a href='./news.html'>News</a></li>
-            <li><a href='./research.html'>Research</a></li>
-            <li><a href='./people.html'>People</a></li>
-            <li><a class='active' href='./publications.html'>Publications</a></li>
-            <li><a href='joinus.html'>JoinUs</a></li>
-            <li><a href='./gallery.html'>Gallery</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <ul>
+          <li><a href='index.html'>AboutUs</a></li>
+          <li><a href='./news.html'>News</a></li>
+          <li><a href='./research.html'>Research</a></li>
+          <li><a href='./people.html'>People</a></li>
+          <li><a class='active' href='./publications.html'>Publications</a></li>
+          <li><a href='joinus.html'>JoinUs</a></li>
+          <li><a href='./gallery.html'>Gallery</a></li>
+        </ul>
+        <!-- 访问量显示放在这里，与导航菜单同一行右侧 -->
+        <div class="visit-counter">
+        Total visits: <span id="busuanzi_value_site_pv"></span>
+        </div>
+      </nav>
 
       <div style="width: 60%; margin: 0 auto; text-align: justify;">
         <p style="font-size: 25px; font-weight: bold; margin-left: 58px; text-indent: -20px;">Selected Publications</p>
@@ -66,4 +68,10 @@
       
       
   </body>
+
+  <footer>
+    <!-- 引入不蒜子脚本 -->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  </footer>
+
 </html>
